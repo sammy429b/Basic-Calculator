@@ -19,6 +19,7 @@ width: 100%;
     border: 1px solid;
     width: 30rem;
     padding: 2rem;
+    background: #262626;
 }
 
 input{
@@ -27,7 +28,8 @@ input{
     margin: .4rem;
     font-size: 1.5rem;
     padding: 0.5rem;
-
+    background: #f7f7f7;
+    
 }
 
 .row1{
@@ -41,4 +43,6 @@ input{
 .row button{
     width: 4rem;
     height: 3rem;
+    background: #000;
+    color: white;
 }
