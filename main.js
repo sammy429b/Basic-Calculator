@@ -1,9 +1,16 @@
 let all = document.getElementsByTagName("button")
 
+
+function clean() {
+  console.log("Called")
+  document.getElementById('res').value = " "
+}
+
 function onBtnClick(item) {
     let res = document.getElementById("res")
     item = item.innerHTML
     res.value += item
+
 }
 
 window.addEventListener("keypress", function(event) {
@@ -24,3 +31,4 @@ document.getElementById("=").addEventListener("click", function () {
         
     }
 })
+

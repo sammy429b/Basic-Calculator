@@ -1,46 +1,63 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
-display: flex;
-flex-direction: column;
-align-items: center;
-margin-top: 5rem;
-width: 100%;
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    width: 100%;
 }
 
-.container{
+.promptBar{
+    display: flex;
+    width: 16.9;
+    align-items: center;
+}
+
+.promptBar button{
+    width:3rem;
+    height: 3rem;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+}
+    
+
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 5rem;
     border: 1px solid;
-    width: 30rem;
+    width: 22rem;
     padding: 2rem;
     background: #262626;
 }
 
-input{
-    width: 25.3rem;
+input {
+    width: 13rem;
     height: 3rem;
     margin: .4rem;
     font-size: 1.5rem;
     padding: 0.5rem;
     background: #f7f7f7;
-    
+
 }
 
-.row1{
+.row1 {
     margin-top: 1rem;
 }
 
-.row{
+.row {
     margin: 0.2rem;
 }
 
-.row button{
+.row button {
     width: 4rem;
     height: 3rem;
     background: #000;
